@@ -1,1 +1,17 @@
+package p462;
 
+public class CheckBox {
+    OnSelectListener listener;
+
+    void setOnSeletListener(OnSelectListener listener) {
+        this.listener = listener;
+    }
+
+    void select() {
+        listener.onSelect();
+    }
+
+    static interface OnSelectListener {
+        void onSelect();
+    }
+}
