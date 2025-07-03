@@ -1,4 +1,6 @@
-package p462;
+#3번문제
+```
+package exam460.p462;
 
 public class CheckBox {
     OnSelectListener listener;
@@ -15,3 +17,4 @@ public class CheckBox {
         void onSelect();
     }
 }
+```
