@@ -1,0 +1,45 @@
+#11번
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th{
+            padding: 5px;
+            width: 80px;
+        }
+        td{
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+<h1>수습 국원 지원 양식</h1>
+<table border="1">
+    <tr>
+       <th rowspan="3">개인정보</th> 
+       <th>이름</th>
+       <td></td>
+    </tr>
+    <tr>
+        <th>학과/학번</th>
+        <td></td>
+    </tr>
+    <tr>
+        <th>연락처</th>
+        <td></td>
+    </tr>
+    <tr>
+        <th>지원 분야</th>
+        <td colspan="2"></td>
+    </tr>
+</table>
+</body>
+
+</html>
+```
